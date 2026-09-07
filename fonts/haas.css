@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Bold';
+    src: url('NeueHaasDisplay-Bold.eot');
+    src: local(''),
+    url('NeueHaasDisplay-Bold.woff') format('woff'),
+    url('NeueHaasDisplay-Bold.eot%3F') format('embedded-opentype'),
+    url('NeueHaasDisplay-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display';
+    src: url('NeueHaasDisplay-Mediu.eot');
+    src: local(''),
+    url('NeueHaasDisplay-Mediu.woff') format('woff'),
+    url('NeueHaasDisplay-Mediu.eot%3F') format('embedded-opentype'),
+    url('NeueHaasDisplay-Mediu.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}

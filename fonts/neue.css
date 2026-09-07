@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('NeueMontreal-Medium.eot');
+    src: local('Neue Montreal Medium'), local('NeueMontreal-Medium'),
+        url('NeueMontreal-Medium.eot%3F') format('embedded-opentype'),
+        url('NeueMontreal-Medium.woff2') format('woff2'),
+        url('NeueMontreal-Medium.woff') format('woff'),
+        url('NeueMontreal-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('NeueMontreal-Bold.eot');
+    src: local('Neue Montreal Bold'), local('NeueMontreal-Bold'),
+        url('NeueMontreal-Bold.eot%3F') format('embedded-opentype'),
+        url('NeueMontreal-Bold.woff2') format('woff2'),
+        url('NeueMontreal-Bold.woff') format('woff'),
+        url('NeueMontreal-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('NeueMontreal-Light.eot');
+    src: local('Neue Montreal Light'), local('NeueMontreal-Light'),
+        url('NeueMontreal-Light.eot%3F') format('embedded-opentype'),
+        url('NeueMontreal-Light.woff2') format('woff2'),
+        url('NeueMontreal-Light.woff') format('woff'),
+        url('NeueMontreal-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('NeueMontreal-Regular.eot');
+    src: local('Neue Montreal Regular'), local('NeueMontreal-Regular'),
+        url('NeueMontreal-Regular.eot%3F') format('embedded-opentype'),
+        url('NeueMontreal-Regular.woff2') format('woff2'),
+        url('NeueMontreal-Regular.woff') format('woff'),
+        url('NeueMontreal-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,13 @@
+# macOS system files
+__MACOSX
+.DS_Store
+._*
+
+# Editor files
+.vscode
+.idea
+*.code-workspace
+
+# OS files
+Thumbs.db
+desktop.ini
