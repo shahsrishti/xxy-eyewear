@@ -1,10 +1,10 @@
 /**
  * Headless Shopify Integration Module via Storefront API
+ * Store: ss-designs-jpgl8vz6.myshopify.com
  */
 
 const SHOPIFY_CONFIG = {
-  // Replace with your actual store domain (e.g., 'your-store-name.myshopify.com')
-  storeDomain: window.SHOPIFY_STORE_DOMAIN || 'YOUR_STORE_NAME.myshopify.com',
+  storeDomain: 'ss-designs-jpgl8vz6.myshopify.com',
   publicAccessToken: '02c740462a756f5ad54157f8d00a6a05',
   apiVersion: '2024-07'
 };
@@ -42,7 +42,7 @@ class ShopifyHeadless {
   }
 
   /**
-   * Fetch all products from Shopify
+   * Fetch all active products from Shopify store
    */
   async getProducts(limit = 20) {
     const query = `
@@ -184,7 +184,7 @@ class ShopifyHeadless {
 
   /**
    * Add Item to Shopify Cart
-   * @param {string} variantId - Shopify Product Variant GID (e.g., "gid://shopify/ProductVariant/123456")
+   * @param {string} variantId - Shopify Product Variant GID (e.g. "gid://shopify/ProductVariant/123456")
    * @param {number} quantity - Number of items to add
    */
   async addToCart(variantId, quantity = 1) {
@@ -213,7 +213,7 @@ class ShopifyHeadless {
   }
 
   /**
-   * Redirect User to Shopify Checkout
+   * Redirect User directly to Shopify Checkout
    */
   async redirectToCheckout() {
     const cart = await this.getOrCreateCart();
@@ -225,6 +225,6 @@ class ShopifyHeadless {
   }
 }
 
-// Export for usage in window object
+// Attach to window object for global access across static pages
 window.ShopifyHeadless = ShopifyHeadless;
 window.shopify = new ShopifyHeadless();
